@@ -86,9 +86,9 @@ it('can add the star name and star symbol properly', async() => {
     const name = "Interstellars"; 
     const symbol = "INTX" 
     // assert statement for name
-    assert.equal(await instance.name.call(), "Interstellars");
+    assert.equal(await instance.name.call(), "StarCoin");
     // assert statement for symbol 
-    assert.equal(await instance.symbol.call(), "INTX"); 
+    assert.equal(await instance.symbol.call(), "STAR"); 
 
 });
 
